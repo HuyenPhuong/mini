@@ -24,7 +24,7 @@ public:
 	//time: thời gian giữa các frame
 	//repeat: có lặp lại hay không
 	static void runAnimation(string name, int count, float time, bool isRepeat,Sprite* sprite);
-	static void runAnimation_Reverse(string name, int count, float time, bool isRepeat,Sprite* sprite);
+	static void runAnimation2(string name, int count, float time, bool isRepeat, Sprite* sprite);
 
 	//Hiển thị thông tin của node trên log! Position, BoundingBox, Anchor,...
 	static void Log(Node* node,string tag);
